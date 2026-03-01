@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SNAKE_GAME_MAKING/SNAKE_GAME_MAKING.vcxproj" Id="6b77e6f8-38ad-42b7-b8e5-c08f925ea2b2" />
+</Solution>

@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\SnakeGameWithRaylib\SNAKE_GAME_MAKING\SNAKE_GAME_MAKING\main.cpp(12,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\SnakeGameWithRaylib\SNAKE_GAME_MAKING\SNAKE_GAME_MAKING\main.cpp(12,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\SnakeGameWithRaylib\SNAKE_GAME_MAKING\SNAKE_GAME_MAKING\main.cpp(52,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\SnakeGameWithRaylib\SNAKE_GAME_MAKING\SNAKE_GAME_MAKING\main.cpp(52,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\SnakeGameWithRaylib\SNAKE_GAME_MAKING\SNAKE_GAME_MAKING\main.cpp(55,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\SnakeGameWithRaylib\SNAKE_GAME_MAKING\SNAKE_GAME_MAKING\main.cpp(55,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  SNAKE_GAME_MAKING.vcxproj -> C:\SnakeGameWithRaylib\SNAKE_GAME_MAKING\x64\Debug\SNAKE_GAME_MAKING.exe

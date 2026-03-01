@@ -1,0 +1,35 @@
+🛠 TỔNG QUAN DỰ ÁN: SNAKE X AI 
+1. Các chế độ chơi (Game Modes)
+Classic Mode: Rắn ăn mồi, dài ra, tốc độ tăng dần. Va chạm tường hoặc thân mình là Game Over.
+
+AI vs Human Mode: Hai con rắn xuất hiện cùng lúc. Rắn xanh (Người) và Rắn đỏ (AI). Cả hai thi đấu xem ai đạt mốc 20 điểm trước hoặc ai sống sót cuối cùng.
+
+AI Auto-Play: Chế độ dành cho khán giả, xem AI tự giải quyết các bản đồ siêu khó.
+
+2. Hệ thống Bản đồ & Chướng ngại vật (Map & Obstacles)
+Static Map: Bản đồ trống kiểu cổ điển.
+
+Dynamic Map: Sinh ngẫu nhiên các "khối đá" (Obstacles) tại các vị trí không trùng với rắn và mồi.
+
+Level System: Qua mỗi màn (ví dụ ăn đủ 10 mồi), bản đồ sẽ đổi kiểu hoặc thêm nhiều vật cản hơn.
+
+3. "Bộ não" AI (The Intelligence)
+Thuật toán: Sử dụng BFS (Breadth-First Search) để tìm đường đi ngắn nhất từ Đầu rắn đến Mồi.
+
+Logic bổ trợ: Nếu không tìm thấy đường đến mồi (bị vây hãm), AI sẽ chuyển sang chế độ "Wander" (đi dạo an toàn) để chờ cơ hội thay vì đâm đầu vào tường.
+
+4. Giao diện & Trải nghiệm (UI/UX)
+Menu chính: Start, High Scores, Settings, Exit.
+
+Trong game: Hiển thị Score hiện tại, High Score và Nút Pause.
+
+Màn hình kết thúc: Thông báo điểm số, hạng (nếu lọt top 10), và nút Replay.
+
+Hình ảnh: Sử dụng Sprite (Texture2D) cho Rắn để trông chuyên nghiệp hơn hình khối.
+
+5. Hệ thống Dữ liệu & Âm thanh (Data & Audio)
+Database: Một file .txt lưu danh sách 10 điểm cao nhất kèm tên (Leaderboard).
+
+Âm thanh: * Nhạc nền (Loop).
+
+Hiệu ứng: Eat_Sfx, Die_Sfx, Button_Click_Sfx.
